@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mssv_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSSV:" />
+
+    <TextView
+        android:id="@+id/hoten_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên:" />
+
+    <TextView
+        android:id="@+id/email_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/ngaysinh_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh:" />
+</LinearLayout>
